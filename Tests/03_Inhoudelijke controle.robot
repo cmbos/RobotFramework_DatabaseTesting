@@ -24,9 +24,9 @@ Ophalen validatiemeldingen
     ...    SELECT *
     ...    FROM validatiemeldingen
     ...    WHERE bestand_id IN (
-	...        SELECT id
-	...        FROM bestand
-	...        WHERE bestandsnaam = '${bestandsnaam}'
+    ...        SELECT id
+    ...        FROM bestand
+    ...        WHERE bestandsnaam = '${bestandsnaam}'
     ...    )
     # Query uitvoeren
     Verbinding maken met Database
