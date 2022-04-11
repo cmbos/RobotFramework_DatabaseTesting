@@ -34,7 +34,7 @@ Ophalen laatste status
     ...            SELECT id
     ...            FROM bestand
     ...            WHERE bestandsnaam = '${bestandsnaam}'
-    ...    	    )
+    ...    	   )
     ...        GROUP BY bestand_id
     ...    )
     # Query uitvoeren
